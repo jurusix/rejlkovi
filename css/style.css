@@ -948,9 +948,7 @@ h3 {
 }
 
 .slider_area_inner {
-  height: 800px;
-  position: relative;
-  z-index: 8;
+ height: 100vh;
   position: relative;
   z-index: 8;
   background-repeat: no-repeat;
@@ -1024,17 +1022,15 @@ h3 {
  
   .slider_area_inner .slider_text {
     transform: translate(0%, -50%) rotate(0deg);
-    padding: 35px 25px;
+    padding: 50px 25px;
     left: 0;
-    padding: 35px 25px;
-    left: 0;
-    right: 0;
+    right: 40%;
     margin: auto;
     top: 50%;
     transform: translateY(-50%);
     display: inline-block;
-    width: 270px;
-    height: 270px;
+    width: 248px;
+    height: 248px;
   }
 }
 
@@ -3444,7 +3440,8 @@ h6 {
 
 .form-select .current {
   margin-right: 50px;
-  font-weight: 300;
+  font-weight: 400;
+  color: black;
 }
 
 

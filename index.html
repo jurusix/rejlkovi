@@ -6,18 +6,20 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible"
           content="ie=edge">
-    <title>M&T | Svatba</title>
+    <title>M & T | Svatba</title>
     <meta name="description"
-          content="">
+          content="12. září 2020, NEST interier, Brno">
+    <meta name="author"
+          content="Made with ♡">
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
-
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="manifest"
+          href="manifest.webmanifest">
+    <meta name="theme-color"
+          content="#ffffff">
     <link rel="shortcut icon"
           type="image/x-icon"
           href="img/favicon.png">
-
-    <!-- CSS here -->
     <link rel="stylesheet"
           href="css/bootstrap.min.css">
     <link rel="stylesheet"
@@ -352,25 +354,35 @@
                         <div class="row justify-content-center">
                             <div class="col-xl-7 col-lg-8">
                                 <div class="popup_box ">
-                                    <div class="popup_inner">
+                                    <div class="popup_inner"
+                                         id="mc_embed_signup">
                                         <div class="form_heading text-center">
                                             <h3>Zúčastníte se?</h3>
                                             <p> Dejte nám vědět do 31. srpna</p>
                                         </div>
-                                        <form action="#">
+                                        <form target="_blank"
+                                              action="https://rejlkovi.us17.list-manage.com/subscribe/post?u=a3b2b5ee3bbc73c50f909451d&amp;id=805f9328cb"
+                                              method="get">
                                             <div class="row">
                                                 <div class="col-xl-12">
                                                     <input type="text"
-                                                           placeholder="Jméno">
+                                                           name="NAME"
+                                                           id="mce-NAME"
+                                                           placeholder="Jméno"
+                                                           required>
                                                 </div>
                                                 <div class="col-xl-12">
-                                                    <input type="text"
-                                                           placeholder="E-mail">
+                                                    <input type="email"
+                                                           name="EMAIL"
+                                                           id="mce-EMAIL"
+                                                           placeholder="E-mail"
+                                                           required>
                                                 </div>
                                                 <div class="col-xl-12">
                                                     <select class="form-select wide"
                                                             id="default-select"
-                                                            class="">
+                                                            name="HOST"
+                                                            id="mce-HOST">
                                                         <option data-display="1 host"
                                                                 value="1">1 host
                                                         </option>
@@ -381,12 +393,19 @@
                                                     </select>
                                                 </div>
                                                 <div class="col-xl-12">
-                                                    <textarea
-                                                              placeholder="Doplňující informace"></textarea>
+                                                    <textarea placeholder="Doplňující informace"
+                                                              name="INFO"
+                                                              id="mce-INFO"></textarea>
                                                 </div>
                                                 <div class="col-xl-12">
                                                     <button type="submit"
+                                                            style="cursor: pointer;"
                                                             class="boxed_btn3">R.S.V.P</button>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <div class="text-center alert info"
+                                                         role="alert">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </form>
@@ -438,18 +457,13 @@
 
     <!-- JS here -->
     <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/ajax-form.js"></script>
     <script src="js/nice-select.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
 
     <!--contact js-->
-    <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
 
     <script>

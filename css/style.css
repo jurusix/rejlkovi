@@ -1655,6 +1655,9 @@ h3 {
   width: 616px;
   max-width: 616px;
   padding: 54px 60px 10px 60px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .location_area .location_info .location_inner h3 {
@@ -4610,12 +4613,12 @@ h6 {
 }
 
 .acc-kontainer input:checked+label:before {
-  margin: 5px 3px;
-  content: "";
-  border: solid #919191;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 4px;
+  content: '+';
+  font-weight: bolder;
+  float: right;
+  color: #919191;
+  font-size: 28px;
+  line-height: 26px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transition: 0.5s;
@@ -4734,6 +4737,7 @@ h6 {
     -ms-transform: translateX(0%);
     transform: translateX(0%);
     left: 0%;
+    width: 100%;
     position: relative;
   }
   .gallery_area {
@@ -4756,7 +4760,7 @@ h6 {
     padding-top: 0;
   }
   .location_area .location_info .location_inner {
-    padding: 20px;
+    padding: 50px 0 10px 0;
     width: 100%;
     bottom: 0;
   }

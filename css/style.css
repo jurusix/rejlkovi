@@ -979,7 +979,7 @@ h3 {
   left: 29%;
   top: 48%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #C78665d1;
+  background: rgba(199, 134, 101, 0.8);
   padding: 120px 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1164,12 +1164,16 @@ h3 {
   background-position: bottom;
 }
 
-
 .weeding_countdown_area .countdown_area .countdown_wrap {
   background: #fff;
   justify-content: space-evenly;
   padding-bottom: 30px;
   padding-top: 30px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
 }
 
 .weeding_countdown_area .countdown_area .countdown_wrap .single_countdown {

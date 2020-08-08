@@ -5,6 +5,7 @@ const CACHE_NAME = 'rejlkovi-v1.0';
 const FILES_TO_CACHE = [
   '/',
   '/index.html',
+  '/Nuda_v_Brne.pdf',
   '/manifest.webmanifest',
   '/css/bootstrap.min.css',
   '/css/magnific-popup.css',

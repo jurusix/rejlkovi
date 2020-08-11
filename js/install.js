@@ -6,14 +6,18 @@ const installAccordion = document.getElementById('accordionInstall');
 const installIosAccordion = document.getElementById('accordionIosInstall');
 
 installButton.addEventListener('click', installPWA);
-
 window.addEventListener('beforeinstallprompt', saveBeforeInstallPromptEvent);
+window.addEventListener('online', () => setOnlineStatus(true));
+window.addEventListener('offline', () => setOnlineStatus(false));
+
+function setOnlineStatus(isOnline) {
+  console.log(isOnline);
+}
 
 function saveBeforeInstallPromptEvent(evt) {
   deferredInstallPrompt = evt;
   installAccordion.removeAttribute('hidden');
 }
-
 
 function installPWA(evt) {
   deferredInstallPrompt.prompt();
@@ -23,7 +27,6 @@ function installPWA(evt) {
     .then((choice) => {
       deferredInstallPrompt = null;
     });
-
 }
 
 const isIos = () => {

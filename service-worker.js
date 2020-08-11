@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'rejlkovi-v2.0';
+const CACHE_NAME = 'rejlkovi-v3.0';
 
 const FILES_TO_CACHE = [
   '/',
